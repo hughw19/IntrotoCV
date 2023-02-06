@@ -5,12 +5,8 @@ instructors:
 
 
 teaching_assistants:
+  - name: Jiazhao Zhang
+    profile_pic: /_images/pp/jiazhao_zhang_image.jpg
+
   - name: Jiayi Chen
     profile_pic: /_images/pp/jiayi_chen_image.jpg
-    webpage: https://jychen18.github.io/
-  
-  - name: Mi Yan
-    profile_pic: /_images/pp/miyan_image.png
-    webpage: https://miyandoris.github.io/
-
-

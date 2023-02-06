@@ -13,13 +13,15 @@ layout: home
 * College Calculus
 * Linear Algebra
 * Basic Probability and Statistics
+* Introduction to AI
 * Proficency in Python
 
 ## Grading 
-* Assignments(40%)
+* Assignments(30%)
 * Midterm (30%)
 * Final (30%)
-  <!--- Please see [Assignments](https://hughw19.github.io/IntrotoCV/assignments/) page for more information. --->
+* Course Presentation (10%)
+<!--- Please see [Assignments](https://hughw19.github.io/IntrotoCV/assignments/) page for more information. --->
 
 
 
