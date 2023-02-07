@@ -1,0 +1,16 @@
+instructors:
+  - name: He Wang
+    profile_pic: /_images/pp/he_wang_image.jpg
+    webpage: https://hughw19.github.io/
+
+
+teaching_assistants:
+  - name: Jiayi Chen
+    profile_pic: /_images/pp/jiayi_chen_image.jpg
+    webpage: https://jychen18.github.io/
+  
+  - name: Mi Yan
+    profile_pic: /_images/pp/miyan_image.png
+    webpage: https://miyandoris.github.io/
+
+

@@ -1,0 +1,45 @@
+---
+layout: default
+title: page.title
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">released on {{ page.date | date: "%A" }} {{ page.date | date: site.dateformat }}
+      <!-- <font color="#FF0000"><br> [Update 03/13/2022 16:13] The reference link of Appendix 2 is replaced with replication padding 
+        <br> [Update 03/13/2022 22:30] We will award 2 points as a bonus to the students who implement reflection padding.
+        <br> [Update 03/14/2022 12:00] Students are not allowed to leverage the numpy.pad for implementing padding.
+        <br> [Update 03/24/2022 ] Revise the reference links of the Appendix.
+      </font> -->
+    </p>
+  </header>
+
+  <div>
+    {% if page.due_event %}
+    <span style="font-weight: bold">Due Date: {{ page.due | date: "%A"  }} {{ page.due_event.date |  date: site.dateformat }} 11:59 PM</span>
+    {% endif %}
+    <p style="font-weight: bold">Download
+      {% if page.pdf %}
+      [<a href="{{ page.pdf | prepend: site.baseurl }}">problems</a>]
+      {% endif %}
+      {% if page.attachment %}
+      [<a href="{{ page.attachment | prepend: site.baseurl }}">attachment</a>]
+      {% endif %}
+      {% if page.solutions %}
+      [<a href="{{ page.solutions | prepend: site.baseurl }}">solutions</a>]
+      {% endif %}
+    </p>
+
+    <div style="color: gray;">
+      <h3>Late Policy</h3>
+      {% include late_policy.html %}
+    </div>
+  </div>
+
+  <br />
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+</div>
